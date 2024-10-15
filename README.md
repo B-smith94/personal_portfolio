@@ -16,3 +16,5 @@ If you would like to contact me, you will find a Contact Form at the bottom of t
 ![contact-info](https://github.com/user-attachments/assets/02aa027a-40a1-4458-bafc-5824d8200d97)
 
 Alternatively, you can contact me directly via the listed email and Linkedin page above the form.
+
+Link to the Portfolio Github page: https://github.com/B-smith94/personal_portfolio/
