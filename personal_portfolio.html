@@ -23,7 +23,7 @@
                 <h2>About Me</h2>
                 <h3>Background</h3>
                 <ul>
-                    <li>Born and raised close to DC: I know the area well</li>
+                    <li>Raised close to DC: I know the area well</li>
                     <li>Background in Music began when I was 5: began study in Piano</li>
                     <li>Now I am a Pianist, Bass Guitarist, and a Vocalist--teaching and performing professionally</li>
                     <li>Due to this background, I learn knew languages quickly, an asset in Software Development</li>
@@ -49,11 +49,11 @@
                     </tr>
                 </table>
                 <h3>Career Goals</h3>
-                <ul>
+                <ol>
                     <li>Establish a foothold in the Software Development world, whether that is Desktop, Mobile, or Web applications</li>
                     <li>Explore and improve upon my skills as a developer, both on the front and back end of development</li>
                     <li>Put my stamp in the world as a creator in a meaningful and impactful way</li>
-                </ul>
+                </ol>
                 <h3>Personal Interests</h3>
                     <ul>
                         <li>Software Development--both Front End and Back End</li>
@@ -65,6 +65,26 @@
             </section>
             <section>
                 <h2>Projects</h2>
+                <h3>Library Management System</h3>
+                <figure>
+                <img src="pictures/library-management-main-menu.png" alt="main menu of the Libary Management System">
+                <figcaption>The main menu of the Libary Management System</figcaption>
+                </figure>
+                <ul>
+                    <li><strong>Description</strong> - A robust database management program that allows the user to manage accounts, display information about books and their authors, and manage book lending and returning.</li>
+                    <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, mysql-connector</li>
+                    <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/library_management_system.git">Library Management System</a></li>
+                </ul>
+                <h3>E-Commerce Platform</h3>
+                <figure>
+                    <img src="pictures/e-commerce-api-postman.png" style="width:750px;height:450px;" alt="screenshot of the project in Postman">
+                    <figcaption>A screenshot of the Postman Project, including a list of routes and functions</figcaption>
+                </figure>
+                <ul>    
+                    <li><strong>Description</strong> - An API Management system for tracking Customer Details, Customer Accounts, Products, and Customer Orders</li>
+                    <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, Postman, Flask, SQL Alchemy</li>
+                    <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/e_commerce_api">E-Commerce API</a></li>
+                </ul>
             </section>
             <section>
                 <h2>Skills</h2>
@@ -92,12 +112,44 @@
                 </table>
             </section>
             <section>
+                <address>
                 <h2>Contact Information</h2>
                 <ul>
                     <li><strong>Email:</strong> <a href="mailto:byrondsmith9@gmail.com">byrondsmith9@gmail.com</a></li>
                     <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/byron-smith-725b487a">Byron Smith</a></li>
                 </ul>
+                
+                <p><b>Or fill out this form and I will get back to you as soon as I can:</b></p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Please Enter your Name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Please Enter your Email Address" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="numeric" name="phone" id="phone" pattern="\(\d{3}\)\s\d{3}\-\d{4}" placeholder="(Optional) (###) ###-####">
+                    <br>
+                    <label>Preferred Contact Method:</label>
+                    <input type="radio" id="email" name="preferredcontact" value="email">
+                    <label for="email">Email</label>
+                    <input type="radio" id="phone" name="preferredcontact" value="phone">
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="nopref" name="preferredcontact" value="nopref">
+                    <label for="nopref">No Preference</label>
+                    <br>
+                    <label for="comments">Enter your message here:</label>
+                    <textarea name="comments" id="comments" rows="8" cols="50" placeholder="Type your message here"></textarea>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Send</button>
+                </form>
+                </address>
             </section>
-    </main>  
+    </main>
+    <hr>  
+    <footer>
+        <p>Thank you for showing interest in my Portfolio! <br>
+        &copy; 2024 Byron Smith. All rights reserved.</p></footer>
     </body>
 </html>
