@@ -103,7 +103,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
     box-sizing: border-box;
-    transition: 0.5s ease-in-out
+    transition: 0.3s ease-in-out
 }
 input[type="text"]:focus,
 input[type="numeric"]:focus,
@@ -130,6 +130,15 @@ button[type="reset"]:hover,
 button[type="submit"]:hover {
     background-color: #0056b3;
 }
+@keyframes pulse {
+    0% {transform: scale(1)};
+    50% {transform: scale(1.1)};
+    100% {transform: scale(1)}
+}
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+    animation: pulse 1.5s infinite;
+}    
 input[type="radio"] {
     margin-right: 5xp;
 }
