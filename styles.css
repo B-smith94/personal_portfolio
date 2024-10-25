@@ -170,4 +170,12 @@ a:hover {
     .personal-interests {
         grid-area: 3 / span 2;
     }
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project img:hover{
+        width: 450px;
+    }
 }
