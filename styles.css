@@ -52,7 +52,7 @@ th, td {
     padding: 8px;
 }
 th {
-    background-color: #04aa6d;
+    background: linear-gradient(to right bottom, rgba(112, 177, 247, 0.8), rgba(0,83, 250, 0.8));
     color: white;
 }
 tr:hover {
