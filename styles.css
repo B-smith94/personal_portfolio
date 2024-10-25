@@ -16,6 +16,7 @@ header {
 header img {
     width: 150px;
     height: auto;
+    margin: 5px;
     border-radius: 150px;
 }
 
@@ -64,7 +65,12 @@ li {
 ul li:first-child {
     font-weight: bold;
 }
-
+a {
+    transition: font-size .5s ease-in-out, color .5s ease-in-out;
+}
+a:hover {
+    font-size: 25px;
+}
 .intro{
     box-shadow: 0 5px 6px rgba(0,0,0,0.1);
     text-align: center;
@@ -98,7 +104,6 @@ ul li:first-child {
 }
 .nav ol a {
     text-decoration: none;
-    transition: color .5s ease-in-out;
 }
 
 .nav ol a:hover {
