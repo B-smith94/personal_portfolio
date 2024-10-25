@@ -1,9 +1,13 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0.5px;
-    padding: 0.5px;
+    margin: 0;
+    padding: 0;
     background-color: rgba(240, 242, 245, 1);
     
+}
+section{
+    margin: 20px;
+    padding: 20px;
 }
 header {
     background: radial-gradient(circle,  rgba(74, 161, 255, 0.8), rgba(0,83, 250, 0.8)); /*Slightly Trasnparent header*/
@@ -36,7 +40,6 @@ h3 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3)
 }
 
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -66,11 +69,85 @@ ul li:first-child {
     font-weight: bold;
 }
 a {
+    font-weight: bold;
     transition: font-size .5s ease-in-out, color .5s ease-in-out;
 }
 a:hover {
-    font-size: 25px;
+    font-size: 18px;
 }
+
+figcaption {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.3);
+}
+form label {
+    font-weight: bold;
+}
+input[type="text"],
+input[type="numeric"],
+input[type="email"],
+textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out
+}
+input[type="text"]:focus,
+input[type="numeric"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+input[type="text"]:hover,
+input[type="numeric"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+    border-color: #0056b3;
+}
+button[type="reset"],
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+button[type="reset"]:hover,
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input[type="radio"] {
+    margin-right: 5xp;
+}
+input[type="radio"] + label { /*sets the style for the labels for the checkboxes and radio buttons*/
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+footer {
+    background: radial-gradient(circle,  rgba(74, 161, 255, 0.8), rgba(0,83, 250, 0.8)); /*Slightly Trasnparent header*/
+    color: white;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+    font-family: 'Arial', sans-serif;
+}
+
 .intro{
     box-shadow: 0 5px 6px rgba(0,0,0,0.1);
     text-align: center;
@@ -99,7 +176,6 @@ a:hover {
     justify-content: flex-end;
     padding: 0;
     font-size: 19px;
-    font-weight: bold;
     
 }
 .nav ol a {
@@ -135,7 +211,6 @@ a:hover {
     background: linear-gradient(to right bottom, rgba(211, 211, 211, 0.8), rgba(245, 245, 245, 0.8));
     box-shadow: 0 5px 3px rgba(0,0,0,0.3);
 }
-
 .project img {
     width: 200px;
     height: auto;
@@ -144,9 +219,29 @@ a:hover {
     border-radius: 5px;
     transition: width 1s ease-in-out;
 }
-
 .project img:hover {
-    width: 600px;
+    width: 550px;
+}
+.project ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: grid;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.3);
+}
+
+.contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -176,6 +271,6 @@ a:hover {
         align-items: center;
     }
     .project img:hover{
-        width: 450px;
+        width: 95%;
     }
 }
