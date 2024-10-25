@@ -13,7 +13,7 @@ Thank you for your interest in my Portfolio! In this portfolio, I have included 
 For ease of navigation, I have also included a Table of Contents that links to each section of my portfolio.
 If you would like to contact me, you will find a Contact Form at the bottom of the page, that looks like this:
 
-![contact-info](https://github.com/user-attachments/assets/02aa027a-40a1-4458-bafc-5824d8200d97)
+![contact-info](https://github.com/user-attachments/assets/bdfa392c-3a92-467f-8c9b-61ca96248ddb)
 
 Alternatively, you can contact me directly via the listed email and Linkedin page above the form.
 
