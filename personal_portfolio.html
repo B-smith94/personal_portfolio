@@ -6,96 +6,108 @@
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta name="description" content="Byron Smith's personal portfolio.">
         <meta name="author" content="Byron Smith">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <main>
             <article>
                 <header>
+                    <img src="pictures/selfie.jpg" alt="profile picture" border="1">
                     <h1>Byron Smith's Personal Portfolio</h1>
-                    <figure>
-                        <img src="pictures/selfie.jpg" style="width:300px;height:400px;" alt="profile picture" border="1">
-                        <figcaption>Byron's Headshot</figcaption>
-                    </figure>
+                    <p>Welcome to my Professional Web Portfolio.</p>
+                    <div class="intro">
+                        <ul>
+                            <li><strong>Name:</strong> Byron Smith</li>
+                            <li><strong>Bio:</strong> Background in Music Education, looking to begin a career in Software Development. Familiar with Python, SQL, HTML.</p></li>
+                        </ul>
+                    </div>
                 </header>
-                <p>Welcome to my personal portfolio!<br><strong>Name:</strong> Byron Smith<br><strong>Bio:</strong> Background in Music Education, looking to become a software developer. Familiar with Python, SQL, HTML.</p>
-                <nav>
-                    <h2>Table of Contents</h2>
-                    <ol>
-                        <li><a href="#aboutme" class="button">About Me</a></li>
-                        <li><a href="#projects" class="button">Projects</a></li>
-                        <li><a href="#skills" class="button">Skills</a></li>
-                        <li><a href="#contactinfo">Contact Information</a></li>
-                    </ol>
-                </nav>  
+                <div > 
+                    <nav class="nav">
+                        <h2>Navigation</h2>
+                        <ol>
+                            <li><a href="#aboutme" class="button">About Me</a></li>
+                            <li><a href="#projects" class="button">Projects</a></li>
+                            <li><a href="#skills" class="button">Skills</a></li>
+                            <li><a href="#contactinfo">Contact Information</a></li>
+                        </ol>
+                    </nav>
+                </div>
             </article>
-            <section id="aboutme">
-                <h2>About Me</h2>
-                <h3>Background</h3>
-                <ul>
-                    <li>Raised close to DC: I know the area well</li>
-                    <li>Background in Music began when I was 5: began study in Piano</li>
-                    <li>Now I am a Pianist, Bass Guitarist, and a Vocalist--teaching and performing professionally</li>
-                    <li>Due to this background, I learn knew languages quickly, an asset in Software Development</li>
-                    <li>Interest in both the hardware and software side of Computer Science--constructed my own computer and regularly upgrade hardware to suit current technological needs</li>
-                    <li>Familiar with concepts in a variety of IT fields, including Network Management, Cyber Security, Software Development</li>
-                </ul>
-                <h3>Education</h3>
-                <table border="1">
-                    <tr>
-                        <th>Institution</th>
-                        <th>Diploma/Degree/Certificate</th>
-                        <th>Year of Graduation</th>
-                    </tr>
-                    <tr>
-                        <td>George Mason University</td>
-                        <td>Bachelors Degree in General and Choral Music Education</td>
-                        <td>2017</td>
-                    </tr>
-                    <tr>
-                        <td>Coding Temple</td>
-                        <td>Certificate of Completion</td>
-                        <td>2025</td>
-                    </tr>
-                </table>
-                <h3>Career Goals</h3>
-                <ol>
-                    <li>Establish a foothold in the Software Development world, whether that is Desktop, Mobile, or Web applications</li>
-                    <li>Explore and improve upon my skills as a developer, both on the front and back end of development</li>
-                    <li>Put my stamp in the world as a creator in a meaningful and impactful way</li>
-                </ol>
-                <h3>Personal Interests</h3>
-                    <ul>
-                        <li>Software Development--both Front End and Back End</li>
-                        <li>Video Games--mostly playing, but I have considered looking into the code behind the games as well</li>
-                        <li>Music--as stated before, I play a variety of instruments and also sing</li>
-                        <li>Dungeons and Dragons--currently as a player, though I have been the Dungeon/Game Master before</li>
-                        <li>Reading--my favorites are the Lord of the Rings Trilogy by J.R.R Tolkien, and the Abhorsen series by Garth Nix</li>
-                    </ul>
-            </section>
+                <section id="aboutme"></section>
+                    <h2>About Me</h2>   
+                    <div class="about-me">    
+                        <ul class="background">
+                        <h3>Background</h3>
+                            <li>Raised close to DC: I know the area well</li>
+                            <li>Background in Music began when I was 5: began study in Piano</li>
+                            <li>Now I am a Pianist, Bass Guitarist, and a Vocalist--teaching and performing professionally</li>
+                            <li>Due to this background, I learn knew languages quickly, an asset in Software Development</li>
+                            <li>Interest in both the hardware and software side of Computer Science--constructed my own computer and regularly upgrade hardware to suit current technological needs</li>
+                            <li>Familiar with concepts in a variety of IT fields, including Network Management, Cyber Security, Software Development</li>
+                        </ul>
+                        <ol class="career-goals">
+                        <h3>Career Goals</h3>
+                            <li>Establish a foothold in the Software Development world, whether that is Desktop, Mobile, or Web applications</li>
+                            <li>Explore and improve upon my skills as a developer, both on the front and back end of development</li>
+                            <li>Put my stamp in the world as a creator in a meaningful and impactful way</li>
+                        </ol>
+                        <ul class="personal-interests">   
+                        <h3>Personal Interests</h3>
+                            <li>Software Development--both Front End and Back End</li>
+                            <li>Video Games--mostly playing, but I have considered looking into the code behind the games as well</li>
+                            <li>Music--as stated before, I play a variety of instruments and also sing</li>
+                            <li>Dungeons and Dragons--currently as a player, though I have been the Dungeon/Game Master before</li>
+                            <li>Reading--my favorites are the Lord of the Rings Trilogy by J.R.R Tolkien, and the Abhorsen series by Garth Nix</li>
+                        </ul>
+                    </div>    
+                        <table border="1" class="education">
+                            <h3 style="text-align: center;">Education</h3>
+                            <tr>
+                                <th>Institution</th>
+                                <th>Diploma/Degree/Certificate</th>
+                                <th>Year of Graduation</th>
+                            </tr>
+                            <tr>
+                                <td>George Mason University</td>
+                                <td>Bachelors Degree in General and Choral Music Education</td>
+                                <td>2017</td>
+                            </tr>
+                            <tr>
+                                <td>Coding Temple</td>
+                                <td>Certificate of Completion</td>
+                                <td>2025</td>
+                            </tr>
+                        </table>
+                </section>
             <section id="projects">
                 <h2>Projects</h2>
-                <h3>Library Management System</h3>
-                <figure>
-                <img src="pictures/library-management-main-menu.png" alt="main menu of the Libary Management System" 
-                <figcaption>The main menu of the Libary Management System</figcaption>
-                </figure>
-                <ul>
-                    <li><strong>Description</strong> - A robust database management program that allows the user to manage accounts, display information about books and their authors, and manage book lending and returning.</li>
-                    <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, mysql-connector</li>
-                    <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/library_management_system.git">Library Management System</a></li>
-                </ul>
-                <h3>E-Commerce Platform</h3>
-                <figure>
-                    <img src="pictures/e-commerce-api-postman.png" style="width:750px;height:450px;" alt="screenshot of the project in Postman" border="1">
-                    <figcaption>A screenshot of the Postman Project, including a list of routes and functions</figcaption>
-                </figure>
-                <ul>    
-                    <li><strong>Description</strong> - An API Management system for tracking Customer Details, Customer Accounts, Products, and Customer Orders</li>
-                    <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, Postman, Flask, SQL Alchemy</li>
-                    <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/e_commerce_api">E-Commerce API</a></li>
-                </ul>
+                    <h3>Library Management System</h3>
+                    <div class="project">    
+                        <figure>
+                        <img src="pictures/library-management-main-menu.png" alt="main menu of the Libary Management System"> 
+                        <figcaption>The main menu of the Libary Management System</figcaption>
+                        </figure>
+                        <ul>
+                            <li><strong>Description</strong> - A robust database management program that allows the user to manage accounts, display information about books and their authors, and manage book lending and returning.</li>
+                            <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, mysql-connector</li>
+                            <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/library_management_system.git">Library Management System</a></li>
+                        </ul>
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <div class="project">
+                    <figure>
+                        <img src="pictures/e-commerce-api-postman.png" alt="screenshot of the project in Postman" border="1">
+                        <figcaption>A screenshot of the Postman Project, including a list of routes and functions</figcaption>
+                    </figure>
+                    <ul>    
+                        <li><strong>Description</strong> - An API Management system for tracking Customer Details, Customer Accounts, Products, and Customer Orders</li>
+                        <li><strong>Technologies and Tools used</strong> - VS Code, Python, MySQL, Postman, Flask, SQL Alchemy</li>
+                        <li><strong>Link to GitHub: </strong><a href="https://github.com/B-smith94/e_commerce_api">E-Commerce API</a></li>
+                    </ul>
+                </div>
             </section>
-            <section id="skills">
+            <section id="skills" class="skills">
                 <h2>Skills</h2>
                 <table border="1">
                     <tr>
